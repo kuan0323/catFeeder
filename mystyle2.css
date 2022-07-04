@@ -23,12 +23,17 @@ body {
     display: flex;
     flex-direction: row;
 }
-/*.flex-container-tag {
-    display: inline-block;
-}*/
-#photo1 {
-    display: flex;
-    flex-direction: row;
+span {
+    background-color: brown;
+    color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+span:hover {
+    background-color:antiquewhite;
+    color:brown;
 }
 #part1 {
     height: 100%;
@@ -49,14 +54,6 @@ body {
     color: brown;
     font-family: 'Patrick Hand', cursive; 
 }
-.catTag {
-    background-color: brown;
-    color: antiquewhite;
-    font-size: 20px;
-    border-radius: 10px;
-    width: 60px;
-    text-align: center;
-}
 #FEED {
     border:0;
     background-color:brown;
@@ -65,7 +62,7 @@ body {
     cursor:pointer;
 }
 #FEED:hover {
-    color:#003C9D;
+    color: brown;
     background-color:antiquewhite;
     border:2px brown solid;
 }
