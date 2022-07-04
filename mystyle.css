@@ -1,3 +1,6 @@
 .problem {
-    background-color: rgb(252, 241, 223);
+    background-color: rgb(254, 248, 237);
+}
+#workspace {
+    font-size: 30px;
 }

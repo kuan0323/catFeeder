@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2022 catFeeder</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle2.css">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
-<body class="problem">
-    <div class="container-fluid pt-3" style="background-color: bisque; color: brown;">
-        <h1 style="font-family: 'Patrick Hand', cursive; font-size:70px">CatFeeder GAME!</h1>
-        <p style="font-family: 'Indie Flower', cursive; font-size: 20px;"><i>-> A simple game about feeding CATs</i></p>
-        <br>
+<body>
+    <div id="header">
+        <h1>CatFeeder GAME! <i style="font-family: 'Indie Flower', cursive; font-size: 30px;">  A simple game about feeding CATs</i></h1>
     </div>
-    <div class="a">hello</div>
+    <div id="part1">
+        <form style="font-size:30px;">
+            <h3><big>Choose U want to feed：</big><small>(Choose one of ALL)</small></h3>
+            <input type="radio" id="cat1" name="Cat1" value="cutie">
+            <label for="cat1">cutie</label><br>
+            <input type="radio" id="cat2" name="Cat2" value="elegantie">
+            <label for="cat2">elegantie</label><br>  
+            <input type="radio" id="cat3" name="Cat3" value="rosetie">
+            <label for="cat3">rosetie</label><br>
+            <input type="radio" id="cat4" name="Cat4" value="uglie">
+            <label for="cat4">uglie</label><br>
+            <input type="radio" id="cat5" name="Cat5" value="naughtie">
+            <label for="cat5">naughtie</label><br>
+            <input type="radio" id="allcats" name="AllCats" value="Feed ALLLLLLLLLL">
+            <label for="allcats">Feed ALLLLLLLLL</label><br>
+            <br>
+            <label for="specificBreed">Input SPECIFIC breed:</label>
+            <br>
+            <input type="text" id="specificBreed" name="name"><br><br>
+            <input type="submit" id="FEED" value="FEED!"  style="width: 105px; height: 45px;">
+            <br><br><br>
+        </form>
+    </div>
 </body>
 </html>
